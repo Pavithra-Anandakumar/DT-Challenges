@@ -1,0 +1,6 @@
+[
+    { "type": "image", "src": "path/to/your/image1.jpg", "alt": "Image 1" },
+    { "type": "image", "src": "path/to/your/image2.jpg", "alt": "Image 2" },
+    { "type": "text", "content": "Your text content goes here." },
+    { "type": "image", "src": "path/to/your/image3.jpg", "alt": "Image 3" }
+]

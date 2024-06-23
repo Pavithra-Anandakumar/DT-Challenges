@@ -1,0 +1,38 @@
+/* Basic reset for margin and font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container for grid layout */
+.container {
+    display: grid; /* Using CSS Grid for layout */
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    grid-template-rows: 1fr 1fr; /* Two rows of equal height */
+    gap: 10px; /* Space between grid items */
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Padding inside the container */
+}
+
+/* Common styles for all grid items */
+.item {
+    display: flex; /* Flexbox for easy centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border: 1px solid #ddd; /* Light border around items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for image items */
+.image img {
+    max-width: 100%; /* Ensure images don't overflow their container */
+    max-height: 100%; /* Ensure images don't overflow their container */
+    object-fit: cover; /* Cover the container without distortion */
+}
+
+/* Styles for the text item */
+.text {
+    text-align: center; /* Center text inside the box */
+    font-size: 1.2em; /* Slightly larger text */
+    padding: 20px; /* Padding inside the text box */
+}
